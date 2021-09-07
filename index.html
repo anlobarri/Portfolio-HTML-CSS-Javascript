@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <!-- Background Circles -->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!-- Overlay Start-->
+    <div class="overlay">
+
+    </div>
+    <!-- Overlay End-->
+    <div class="main">
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Inicio</a></li>
+                                <li><a href="#about" class="nav-item link-item">Sobre mí</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </nav>                    
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Home Section Start-->
+        <section class="home-section align-items-center active" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hola, soy</p>
+                        <h1>Ángel López</h1>
+                        <h2>Diseñador web y desarrollador</h2>
+                        <a href="#about" class="btn link-item">Más sobre mí</a>
+                        <a href="#portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="./src/img/Angel.png" alt="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About section Start-->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Sobre mí</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="./src/img/Angel.png" alt="about-me">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nulla perferendis doloribus facere minus impedit neque? Eligendi voluptatibus neque repellendus maxime. Minima quae nesciunt ipsa quo possimus aspernatur deleniti quaerat.</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">html</div>
+                            <div class="skill-item">css</div>
+                            <div class="skill-item">javascript</div>
+                            <div class="skill-item">bootstrap</div>
+                            <div class="skill-item">php</div>
+                            <div class="skill-item">python</div>
+                            <div class="skill-item">Vuejs</div>
+                            <div class="skill-item">Wordpress</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">Educación</button>
+                            <button type="button" class="tab-item" data-target="#experience">Experiencia</button>
+                        </div>
+                        
+                        <!-- Education Start-->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2013-2016</span>
+                                    <h4>Bachillerato científico - <span>I.E.S Luis de Góngora</span></h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit minima ad iste deserunt pariatur esse.</p>                       
+                                    
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2013-2016</span>
+                                    <h4>Bachillerato científico - <span>I.E.S Luis de Góngora</span></h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit minima ad iste deserunt pariatur esse.</p>                       
+                                    
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2013-2016</span>
+                                    <h4>Bachillerato científico - <span>I.E.S Luis de Góngora</span></h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit minima ad iste deserunt pariatur esse.</p>                       
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Education End-->
+                        <!-- Experience Start-->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                   <span class="date">2013-2016</span>
+                                   <h4>Desarrollador web - <span>Autónomo</span></h4> 
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam fuga eum, optio labore quas.</p>
+                                </div>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                   <span class="date">2013-2016</span>
+                                   <h4>Desarrollador web - <span>Autónomo</span></h4> 
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam fuga eum, optio labore quas.</p>
+                                </div>
+                            </div>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                   <span class="date">2013-2016</span>
+                                   <h4>Desarrollador web - <span>Autónomo</span></h4> 
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam fuga eum, optio labore quas.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- Experience End-->
+
+                        <a href="#" class="btn" target="_blank">Descarga mi CV</a>
+                        <a href="#contact" class="btn link-item">Contacta conmigo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About section End-->
+
+        <!-- Portfolio Section Start-->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Trabajos Recientes</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Poprtfolio Item Start-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./src/img/portfolio/laem.png" alt="portfolio-item">
+                        </div>
+                        <h3 class="portfolio-item-title">La Escuela Maker</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minima assumenda aut vel nisi sed ullam, quis consectetur adipisci voluptates reiciendis quasi recusandae, saepe corporis quo nam nobis officiis, impedit dolorum repudiandae enim. Ad, minus. Saepe neque dolor error inventore?</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>Julio 2021</span></li>
+                                    <li>Tecnología - <span>Wordpress</span></li>
+                                    <li>Rol - <span>Frontend</span></li>
+                                    <li>Ver Online - <span><a href="www.laescuelamaker.com" target="_blank">www.laescuelamaker.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Poprtfolio Item End-->
+                     <!-- Poprtfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./src/img/portfolio/conducteam.png" alt="portfolio-item">
+                        </div>
+                        <h3 class="portfolio-item-title">Conducteam</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minima assumenda aut vel nisi sed ullam, quis consectetur adipisci voluptates reiciendis quasi recusandae, saepe corporis quo nam nobis officiis, impedit dolorum repudiandae enim. Ad, minus. Saepe neque dolor error inventore?</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>Enero 2021</span></li>
+                                    <li>Tecnología - <span>Wordpress</span></li>
+                                    <li>Rol - <span>Frontend</span></li>
+                                    <li>Ver Online - <span><a href="www.laescuelamaker.com" target="_blank">www.laescuelamaker.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Poprtfolio Item End-->
+                     <!-- Poprtfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./src/img/portfolio/laem.png" alt="portfolio-item">
+                        </div>
+                        <h3 class="portfolio-item-title">La Escuela Maker</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minima assumenda aut vel nisi sed ullam, quis consectetur adipisci voluptates reiciendis quasi recusandae, saepe corporis quo nam nobis officiis, impedit dolorum repudiandae enim. Ad, minus. Saepe neque dolor error inventore?</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>Juliio 2021</span></li>
+                                    <li>Tecnología - <span>Wordpress</span></li>
+                                    <li>Rol - <span>Frontend</span></li>
+                                    <li>Ver Online - <span><a href="www.laescuelamaker.com" target="_blank">www.laescuelamaker.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Poprtfolio Item End-->
+                     <!-- Poprtfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./src/img/portfolio/laem.png" alt="portfolio-item">
+                        </div>
+                        <h3 class="portfolio-item-title">La Escuela Maker</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minima assumenda aut vel nisi sed ullam, quis consectetur adipisci voluptates reiciendis quasi recusandae, saepe corporis quo nam nobis officiis, impedit dolorum repudiandae enim. Ad, minus. Saepe neque dolor error inventore?</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>Juliio 2021</span></li>
+                                    <li>Tecnología - <span>Wordpress</span></li>
+                                    <li>Rol - <span>Frontend</span></li>
+                                    <li>Ver Online - <span><a href="www.laescuelamaker.com" target="_blank">www.laescuelamaker.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Poprtfolio Item End-->
+                     <!-- Poprtfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./src/img/portfolio/laem.png" alt="portfolio-item">
+                        </div>
+                        <h3 class="portfolio-item-title">La Escuela Maker</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minima assumenda aut vel nisi sed ullam, quis consectetur adipisci voluptates reiciendis quasi recusandae, saepe corporis quo nam nobis officiis, impedit dolorum repudiandae enim. Ad, minus. Saepe neque dolor error inventore?</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>Juliio 2021</span></li>
+                                    <li>Tecnología - <span>Wordpress</span></li>
+                                    <li>Rol - <span>Frontend</span></li>
+                                    <li>Ver Online - <span><a href="www.laescuelamaker.com" target="_blank">www.laescuelamaker.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Poprtfolio Item End-->
+                     <!-- Poprtfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./src/img/portfolio/laem.png" alt="portfolio-item">
+                        </div>
+                        <h3 class="portfolio-item-title">La Escuela Maker</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum minima assumenda aut vel nisi sed ullam, quis consectetur adipisci voluptates reiciendis quasi recusandae, saepe corporis quo nam nobis officiis, impedit dolorum repudiandae enim. Ad, minus. Saepe neque dolor error inventore?</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>Juliio 2021</span></li>
+                                    <li>Tecnología - <span>Wordpress</span></li>
+                                    <li>Rol - <span>Frontend</span></li>
+                                    <li>Ver Online - <span><a href="www.laescuelamaker.com" target="_blank">www.laescuelamaker.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Poprtfolio Item End-->
+                </div>
+            </div>
+        </section>               
+        <!-- Portfolio Section End-->
+        
+        <!-- Contact Section Start -->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contacta conmigo</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Nombre" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Asunto" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Mensaje" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Enviar Mensaje</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>Angel@laescuelamaker.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Teléfono</h3>
+                            <p>640206995</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Sígueme</h3>
+                            <div class="social-links">
+                                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+    </div>
+    <!-- Main End-->
+
+    <!-- Portfolio Item Details Popup Start-->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+               <div class="pp-header">
+                   <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                  <div class="pp-thumbnail">
+                     <img src="./src/img/portfolio/laem.png" alt="pp-thumbnmail"> 
+                  </div>
+                  <h3></h3> 
+               </div>
+               <div class="pp-body">
+                   
+               </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Item Details Popup End-->
+    <script src="./src/script.js"></script>
+</body>
+</html>
